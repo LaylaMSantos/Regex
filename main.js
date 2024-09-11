@@ -7,10 +7,10 @@ const nomeCompRegex = /^[a-zA-Z\s]{2,}$/
 
 validarBT.addEventListener("click", (e) => {
     if(nomeCompRegex.test(nomeComIPT.value)){
-        saidaUsuario.innerHTML = "Hehe"
+        saidaUsuario.innerHTML = "Nome Válido"
         saidaUsuario.style.color = "green"
     } else {
-        saidaUsuario.innerHTML = "Not Hehe"
+        saidaUsuario.innerHTML = "Nome Inválido"
         saidaUsuario.style.color = "red"
     }
 })
